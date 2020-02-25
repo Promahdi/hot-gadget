@@ -1,0 +1,69 @@
+body,html {
+    margin: 0;height:100%;
+    font-family: 'Poppins', sans-serif !important; 
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+body{
+    
+}
+
+.carousel-item{
+    padding: 20px 20px;
+}
+
+.carousel-indicators li {
+	width: 15px;
+	height: 9px;
+	border-radius: 10px;
+	background-color: rgb(218, 216, 216);
+	border-top: none;
+	border-bottom: none;
+}
+
+.carousel-indicators .active {
+	opacity: 1;
+	background-image: linear-gradient(120deg, rgb(253, 173, 24) 0%, rgb(250, 208, 42) 100%);
+	width: 30px;
+}
+
+.carousel-indicators {
+	bottom: -30px;
+}
+
+.logo-area{
+    padding: 20px;
+}
+
+.logo-area img{
+    width: 60%
+}
+
+.navbar{
+    padding: 20px 50px;
+}
+
+.dark-button {
+	background-color: #000;
+	color: #fff;
+	font-size: 13px;
+	padding: 14px 25px;
+	border-radius: 8px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: 600;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.slider-content h1{
+    font-size: 50px;
+	margin-bottom: 20px;
+	color: #1F1F1F;
+	text-transform: capitalize;
+}
+
