@@ -1,5 +1,4 @@
 body,html {
-    margin: 0;height:100%;
     font-family: 'Poppins', sans-serif !important; 
 }
 
@@ -12,7 +11,7 @@ body{
 }
 
 .carousel-item{
-    padding: 20px 20px;
+    
 }
 
 .carousel-indicators li {
@@ -67,3 +66,151 @@ body{
 	text-transform: capitalize;
 }
 
+.smartphone-list-area {
+	padding: 60px 0;
+}
+
+.product-heading-see-all {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.product-heading-see-all h2 {
+	font-weight: 600;
+	font-size: 25px;
+	text-transform: capitalize;
+	color: #1F1F1F;
+}
+
+.product-heading-see-all a {
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #FF9D00;
+}
+
+.single-product {
+	-webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.051);
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.051);
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	margin-top: 30px;
+	transition: box-shadow 0.5s ease-in-out;
+}
+
+.single-product:hover {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.single-product:hover a.product-link {
+	color: #FF9D00;
+
+}
+
+.product-img img {
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.product-content a {
+	font-size: 22px;
+	font-weight: 600;
+	color: #1F1F1F;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-bottom: 15px;
+	display: inline-block;
+	transition: .5s;
+}
+
+.product-content p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.product-price span {
+	font-weight: 600;
+	font-size: 22px;
+	margin-top: 20px;
+	display: block;
+}
+
+.laptop-list-area {
+	padding: 60px 0;
+}
+
+.newsletter-area {
+	padding: 100px 0;
+	background-position: center;
+	background-size: cover;
+}
+
+.newsletter-box {
+	text-align: center;
+}
+
+.newsletter-box h3 {
+	font-weight: 600;
+	font-size: 35px;
+	color: #232529;
+	letter-spacing: 1px;
+	margin: 0
+}
+
+.newsletter-box p {
+	font-size: 15px;
+	color: #909297;
+	margin-bottom: 25px;
+	line-height: 25px;
+	margin-top: 10px;
+}
+
+.subscriber-form {
+	max-width: 520px;
+	width: 100%;
+	padding: 0 10px;
+	margin: auto;
+	position: relative;
+}
+
+.subscriber-form .form-group input {
+	height: 55px;
+	border-radius: unset;
+	border: 1px solid #efefef;
+	border-radius: 25px;
+	padding-left: 20px;
+}
+
+.subscriber-form .form-submit {
+	position: absolute;
+	top: 1px;
+	right: 11px;
+	background: #fff;
+	bottom: 1px;
+	border-radius: 25px;
+}
+
+.subscriber-form .form-submit input {
+	border: none;
+	outline: none;
+	padding: 14.5px 25px;
+	font-size: 16px;
+	letter-spacing: 0px;
+	position: relative;
+	background-image: linear-gradient(120deg, rgb(253, 173, 24) 0%, rgb(250, 208, 42) 100%);
+	color: #fff;
+	transition: .5s;
+	border-radius: 0 25px 25px 0;
+}
+
+
+
+footer{
+    text-align: center;
+}
